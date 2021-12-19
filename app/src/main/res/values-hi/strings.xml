@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FYP</string>
+    <string-array name="usertype">
+        <item>Admin</item>
+        <item>User</item>
+        <item>Manager</item>
+    </string-array>
+</resources>

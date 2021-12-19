@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "283261946013",
+    "project_id": "anonymous-chatting-403c4",
+    "storage_bucket": "anonymous-chatting-403c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283261946013:android:a2dfc69453614e02936c74",
+        "android_client_info": {
+          "package_name": "com.example.fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5suhyh50QF_3K5Fjq8gTqh3Y7gQMA60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:283261946013:android:034208acd5d4c7e9936c74",
+        "android_client_info": {
+          "package_name": "com.example.unsungroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAH5suhyh50QF_3K5Fjq8gTqh3Y7gQMA60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_admin.xml" value="0.1213768115942029" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_camera_has_opened.xml" value="0.11503623188405797" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_import_from_gallery.xml" value="0.10182370820668693" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_manager.xml" value="0.11503623188405797" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_take_photo.xml" value="0.1213768115942029" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_take_photo_activty.xml" value="0.33" />
+        <entry key="..\:/FYP/app/src/main/res/layout/activity_taking_manual.xml" value="0.11503623188405797" />
+        <entry key="..\:/FYP/app/src/main/res/layout/adapter_view_layout.xml" value="0.33" />
+        <entry key="..\:/FYP/app/src/main/res/layout/adapter_view_layout1.xml" value="0.1" />
+        <entry key="..\:/FYP/app/src/main/res/layout/admin_interface.xml" value="0.1213768115942029" />
+        <entry key="..\:/FYP/app/src/main/res/layout/camera_open.xml" value="0.18" />
+        <entry key="..\:/FYP/app/src/main/res/layout/import_gallery.xml" value="0.14" />
+        <entry key="..\:/FYP/app/src/main/res/layout/manager_interface.xml" value="0.1213768115942029" />
+        <entry key="..\:/FYP/app/src/main/res/layout/take_manual_layout.xml" value="0.11503623188405797" />
+        <entry key="..\:/FYP/app/src/main/res/layout/take_photo_page.xml" value="0.1" />
+        <entry key="..\:/FYP/app/src/main/res/layout/view_layout.xml" value="0.9" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
