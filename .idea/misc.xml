@@ -20,6 +20,11 @@
         <entry key="..\:/FYP/app/src/main/res/layout/take_manual_layout.xml" value="0.11503623188405797" />
         <entry key="..\:/FYP/app/src/main/res/layout/take_photo_page.xml" value="0.1" />
         <entry key="..\:/FYP/app/src/main/res/layout/view_layout.xml" value="0.9" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/adapter_view_layout1.xml" value="0.12537993920972645" />
+        <entry key="app/src/main/res/layout/camera_open.xml" value="0.11141304347826086" />
+        <entry key="app/src/main/res/layout/manager_interface.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/take_photo_page.xml" value="0.11141304347826086" />
       </map>
     </option>
   </component>

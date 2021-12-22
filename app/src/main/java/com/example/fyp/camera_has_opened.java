@@ -54,7 +54,7 @@ import com.google.firebase.storage.OnProgressListener;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 
-
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.mlkit.vision.text.Text;
 import com.google.android.gms.vision.text.TextBlock;
 import com.google.android.gms.vision.text.TextRecognizer;
@@ -93,11 +93,12 @@ public class camera_has_opened extends AppCompatActivity {
 
     Uri image_uri;
     Uri result_uri;
-
+    private FirebaseAnalytics mFirebaseAnalytics;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.camera_open);
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
         mImageView = (ImageView) findViewById(R.id.photo_taken);
         mCapturebtn = (Button) findViewById(R.id.capture_image_btn);
 
@@ -162,8 +163,12 @@ public class camera_has_opened extends AppCompatActivity {
         ActivityCompat.requestPermissions(camera_has_opened.this, new String[]{Manifest.permission.READ_EXTERNAL_STORAGE}, 1);
 
         mCapturebtn.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
+                Bundle bundle = new Bundle();
+                bundle.putString("Capture","capturebtn");
+                mFirebaseAnalytics.logEvent("capture_btn", bundle);
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                     if (checkSelfPermission(Manifest.permission.CAMERA) == PackageManager.PERMISSION_DENIED
                             || checkSelfPermission(Manifest.permission.WRITE_EXTERNAL_STORAGE) == PackageManager.PERMISSION_DENIED) {

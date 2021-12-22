@@ -1,62 +1,33 @@
 {
   "project_info": {
-    "project_number": "283261946013",
-    "project_id": "anonymous-chatting-403c4",
-    "storage_bucket": "anonymous-chatting-403c4.appspot.com"
+    "project_number": "755263642572",
+    "project_id": "image-listener",
+    "storage_bucket": "image-listener.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:283261946013:android:a2dfc69453614e02936c74",
+        "mobilesdk_app_id": "1:755263642572:android:fae6650f22b5c96b8ddb69",
         "android_client_info": {
           "package_name": "com.example.fyp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
+          "client_id": "755263642572-8utukn38p76qt0afpnr22r98crmb7kp4.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAH5suhyh50QF_3K5Fjq8gTqh3Y7gQMA60"
+          "current_key": "AIzaSyCmNaYNZ2kYf45c9e2dboX0D7mppGaF5jo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:283261946013:android:034208acd5d4c7e9936c74",
-        "android_client_info": {
-          "package_name": "com.example.unsungroom"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyAH5suhyh50QF_3K5Fjq8gTqh3Y7gQMA60"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "283261946013-tjb3r1291kn7efp0535shphaq0m4bmt0.apps.googleusercontent.com",
+              "client_id": "755263642572-8utukn38p76qt0afpnr22r98crmb7kp4.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

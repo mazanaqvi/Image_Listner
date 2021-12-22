@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -9,29 +11,33 @@
 
 
         <Button
-            android:id="@+id/button4"
-            android:layout_width="130dp"
-            android:layout_height="65dp"
+            android:id="@+id/button2"
+            android:layout_width="128dp"
+            android:layout_height="60dp"
             android:layout_marginLeft="130dp"
-            android:layout_marginTop="400dp"
-            android:text="Manual" />
+            android:layout_marginTop="300dp"
+            android:text="Import Photo" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="128dp"
-        android:layout_height="60dp"
-        android:text="Import"
-        android:layout_marginTop="300dp"
-        android:layout_marginLeft="130dp"
-        />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="127dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="200dp"
+            android:text="Take Photo" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="127dp"
-        android:layout_height="63dp"
-        android:text="Take Photo"
-        android:layout_marginTop="200dp"
-        android:layout_marginLeft="130dp"
-        />
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="175dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="19dp"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7302854544676084/1568996336"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible"></com.google.android.gms.ads.AdView>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

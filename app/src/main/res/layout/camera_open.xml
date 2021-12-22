@@ -41,12 +41,12 @@
 
 
     <EditText
-        android:layout_marginTop="540dp"
+        android:id="@+id/edit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edit"
-        android:textSize="25dp"
+        android:layout_marginTop="540dp"
         android:text="Enter Text"
+        android:textSize="25dp"
         tools:ignore="MissingConstraints" />
     <TextView
         android:layout_width="wrap_content"

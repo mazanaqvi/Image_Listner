@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FYP</string>
+    <string name="app_name">Image Listner</string>
     <string-array name="usertype">
         <item>Admin</item>
         <item>User</item>
